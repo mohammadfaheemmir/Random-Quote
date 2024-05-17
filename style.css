@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+#btn{
+    margin-top: 60px;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+}
